@@ -1,5 +1,7 @@
-//Interactive Display V1
+//Interactive Display
+//Public Repo
 //Joshua Weitzel 2025-08-19
+//Version 1
 
 #include "header.h"
 #include "classes.h"
@@ -365,4 +367,5 @@ void ThemeSelectApp::drawDarkModeToggle(){
   } else {
     tft.print("DARK");
   }
+
 }
